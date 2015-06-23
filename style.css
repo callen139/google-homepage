@@ -1,0 +1,116 @@
+/* This is the CSS for my Google Homepage */
+
+body {
+	background-color: #FFFFFF;
+}
+
+.top, .center, .bottom {
+	display: block;
+}
+
+.top {
+	margin: 10px 0 20px 0;
+}
+
+.center {
+	position: absolute;
+	top: 50px;
+	margin: 175px 250px 100px 460px;
+}
+
+.logo img {
+	height: 100px;
+	padding-bottom: 20px;
+	margin-left: 90px;
+}
+
+#searchbar {
+	background-image: url("Images/search_voice.gif");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 10px 15px;
+	width: 475px;
+	height: 20px;
+	margin-bottom: 20px;
+}
+
+#searchbar input {
+	margin-left: 60px;
+}
+
+.search_options .search_button, .search_options .lucky_button {
+	height: 29px;
+	display: inline;
+	text-align: -webkit-center;
+}
+
+.search_button {
+	margin-left: 120px;
+}
+
+.lucky_button {
+	margin-left: 10px;
+}
+
+.navbar {
+	position: absolute;
+	right: 25px;
+	top: 10px;
+}
+
+.navbar ul, .navbar li, .face, .apps, .notification, .share, .navbar_left ul, .navbar_right ul, .navbar_left li, .navbar_right li {
+	display: inline;
+	font-size: 14px;
+}
+
+li {
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+a {
+	text-decoration: none;
+	color: #404040;
+}
+
+.face img{
+	border-radius: 25px;
+}
+
+.bottom {
+	background-color: #404040;
+	margin: 0 auto;
+}
+
+hr {
+	margin-top: 47%;
+}
+
+.bottom .navbar_left, .bottom .navbar_right {
+	position: absolute;
+	bottom: 10px;
+}
+
+.navbar_left {
+	left: 25px;
+}
+
+.navbar_right {
+	right: 25px;
+}
+
+#search, #lucky {
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	height: 32px;
+	border-radius: 2px;
+}
+
+#searchbar {
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
+#search:hover, #lucky:hover, #searchbar:hover {
+	border-color: #bbb;
+}
